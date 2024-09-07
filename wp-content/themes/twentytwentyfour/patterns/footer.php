@@ -6,7 +6,7 @@
  * Block Types: core/template-part/footer
  * Description: A footer section with a colophon and 4 columns.
  */
-echo "I added this by the ci/cd";
+echo "I added this by the ci/cd again";
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
