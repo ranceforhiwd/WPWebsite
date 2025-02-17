@@ -1,9 +1,9 @@
 <?php
 include 'nextgendata.php';
-include 'sdkObjects.php';
+//include 'sdkObjects.php';
 $r = getData($dbClient);
 //print_r($r);
-//exit();
+exit();
 ?>
 <!DOCTYPE html>
 <html lang="en">
