@@ -15,8 +15,8 @@ $s3client = new S3Client([
     'version'     => 'latest',
     'region'      => 'us-east-1', //Region of the bucket
     'credentials' => array(
-        'key'    => $key,
-        'secret' => $secret,
+        'key'    => ${{ACCESS_KEY}},
+        'secret' => ${{SECRET_KEY}},
     )
 ]);
 
