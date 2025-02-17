@@ -11,8 +11,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 set_time_limit(0);
 
-$key = $AWS_ACCESS_KEY;
-$secret = $SECRET_KEY;
+$key = ${secret.AWS_ACCESS_KEY};
+$secret = ${secret.SECRET_KEY};
 
 $s3client = new S3Client([
     'version'     => 'latest',
