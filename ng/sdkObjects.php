@@ -11,12 +11,15 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 set_time_limit(0);
 
+$key = $AWS_ACCESS_KEY;
+$secret = $SECRET_KEY;
+
 $s3client = new S3Client([
     'version'     => 'latest',
     'region'      => 'us-east-1', //Region of the bucket
     'credentials' => array(
-        'key'    => ${{ACCESS_KEY}},
-        'secret' => ${{SECRET_KEY}},
+        'key'    => $key,
+        'secret' => $secret,
     )
 ]);
 
