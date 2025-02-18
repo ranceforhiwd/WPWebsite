@@ -11,23 +11,13 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 set_time_limit(0);
 
-$key = ${secret.AWS_ACCESS_KEY};
-$secret = ${secret.SECRET_KEY};
 
 $s3client = new S3Client([
     'version'     => 'latest',
     'region'      => 'us-east-1', //Region of the bucket
-    'credentials' => array(
-        'key'    => $key,
-        'secret' => $secret,
-    )
 ]);
 
 $dbClient = new DynamoDbClient([
     'version'     => 'latest',
     'region'      => 'us-east-1', //Region of the bucket
-    'credentials' => array(
-        'key'    => $key,
-        'secret' => $secret,
-    )
 ]);
