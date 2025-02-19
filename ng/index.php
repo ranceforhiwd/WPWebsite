@@ -23,7 +23,7 @@ $r = getData($dbClient);
          <form action="/action_page.php">
 
             <div class="container">
-               <div class="row" id="title"><h2>NEXTGEN</h2></div>
+               <div class="row" id="title"><h2>NEXTGEN PANEL</h2></div>
                <div class="row">
                      <div class="col">            
                   <div class="form-floating">
