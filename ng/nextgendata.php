@@ -1,5 +1,5 @@
 <?php
-/**NextGen App Functions rla 2-18-25 */
+/**NextGen App Functions rla 2-19-25 */
 function clean($x){
    $n = [];
    $blank =  sizeOf($x);
